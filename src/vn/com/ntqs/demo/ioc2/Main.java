@@ -12,8 +12,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		log.println("!~ IOC V2 ~!");
-		ConsoleLogger logger = new ConsoleLogger();
-		logger.setColorful(true);
+		ConsoleLogger logger = new ConsoleLogger(true);
 		
 		CustomerManagement inst = new CustomerManagement(logger);
 		inst.registerUser("t0kuda", "123456");

@@ -10,7 +10,7 @@ public class ConsoleLogger {
 	public ConsoleLogger() {
 	}
 	
-	public void setColorful(Boolean colorful) {
+	public ConsoleLogger(Boolean colorful) {
 		this.colorful = colorful;
 	}
 	
