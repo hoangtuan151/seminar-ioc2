@@ -6,9 +6,8 @@ public class CustomerManagement {
 
 	private ConsoleLogger logger;
 	
-	public CustomerManagement() {
-		this.logger = new ConsoleLogger();
-		this.logger.setColorful(true);
+	public CustomerManagement(ConsoleLogger logger) {
+		this.logger = logger;
 	}
 	
 	public void registerUser(String username, String passwd) {
