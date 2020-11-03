@@ -1,12 +1,10 @@
 package vn.com.ntqs.demo.ioc2.business;
 
-import vn.com.ntqs.demo.ioc2.application.ConsoleLogger;
-
 public class CustomerManagement {
 
-	private ConsoleLogger logger;
+	private ILogger logger;
 	
-	public CustomerManagement(ConsoleLogger logger) {
+	public CustomerManagement(ILogger logger) {
 		this.logger = logger;
 	}
 	

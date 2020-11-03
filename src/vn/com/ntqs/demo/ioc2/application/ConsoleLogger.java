@@ -1,6 +1,8 @@
 package vn.com.ntqs.demo.ioc2.application;
 
-public class ConsoleLogger {
+import vn.com.ntqs.demo.ioc2.business.ILogger;
+
+public class ConsoleLogger implements ILogger {
 	public static final String ANSI_RESET = "\u001B[0m";
 	public static final String ANSI_BLACK = "\u001B[30m";
 	public static final String ANSI_RED = "\u001B[31m";
